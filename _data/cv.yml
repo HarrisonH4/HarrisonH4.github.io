@@ -2,9 +2,9 @@ cv:
   name: Harrison G. Henley
   label: Software Developer
   email: HHenleyWork@gmail.com
-  location: Princeton, NJ
+  location: Sheffield, South Yorkshire, England
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: A recently graduated software developer looking for new graphic techinques to learn and have fun with programming.
 
   social_networks:
     - network: GitHub
@@ -34,9 +34,11 @@ cv:
     Skills:
       - name: Communication
         icon: fa-solid fa-hashtag
+        keywords: "Small Talk, Technique / Method Explanations"
 
       - name: Fast Learner
         icon: fa-solid fa-hashtag
+        keywords: "C, C++, C#"
 
       - name: Task / Time Keeping
         icon: fa-solid fa-hashtag
@@ -66,19 +68,19 @@ cv:
         icon: fa-solid fa-location-dot
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Base Form
+        summary: For my final year of university, I was given a task to form a group and create a game of any type for the PlayStation5, this took the face of "Base Form", an action-based 3D first-person shooter, where hordes of enemies would attack the player, dropping items and gear that allow the player to change the abilities they had, making no 2 runs the same.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Implementation of 'recastnavigation' & 'joltphysics'
+          - Simplistic Behaviours for AI
+        start_date: January 2026
+        end_date: May 2026
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Can a Compute Shader Octree Approach to Render Culling in Vulkan Increase Performance Compared to Traditional CPU-GPU Approach.
+        summary: For my final year dissertation, I wanted to explore the different culling options and found that most would still go over every vertice an object had, so I thought if every object in a scene had this bounding box, calculated by the compute shader, then compared to the screen space coordinates, entire objects could be discarded instead increasing performance.
+        highlights: 
+          - Implementation of a Compute Shader
+          - Discovering the Normalised Device Coordinates
+          - Learning about Top- / Bottom-level Raytracing Acceleration Structures
+        start_date: September 2025
+        end_date: January 2026
