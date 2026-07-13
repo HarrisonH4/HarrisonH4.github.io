@@ -69,7 +69,7 @@ cv:
 
     Projects:
       - name: Base Form
-        summary: For my final year of university, I was given a task to form a group and create a game of any type for the PlayStation5, this took the face of "Base Form", an action-based 3D first-person shooter, where hordes of enemies would attack the player, dropping items and gear that allow the player to change the abilities they had, making no 2 runs the same.
+        summary: For my final year of university, I was given a task to form a group and create a game of any type for the PlayStation5, this took the face of "Base Form", an action-based 3D first-person shooter, where hordes of enemies would attack the player, dropping items and gear that allow the player to change the abilities they had, making no two runs the same.
         highlights:
           - Implementation of 'recastnavigation' & 'joltphysics'
           - Simplistic Behaviours for AI
