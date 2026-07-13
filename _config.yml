@@ -153,19 +153,19 @@ newsletter:
 # Collections
 # -----------------------------------------------------------------------------
 
-# Made the collections false 
+# Made the collections false - Do NOT do this, causes the deployment to fail
 
 collections:
   books:
-    output: false
+    output: true
   news:
     defaults:
       layout: post
-    output: false
+    output: true
   projects:
     output: true
   teachings:
-    output: false
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
