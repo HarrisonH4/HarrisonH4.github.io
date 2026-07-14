@@ -1,18 +1,22 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Base Form
+description: PlayStation 5 Game Attempt
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Welcome to my PlayStation 5 Game (Attempt) - Base Form! 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+In a futuristic setting, on a dystopian world, our protagonist has been rudely awoken by some mean robots. 
+Not remembering anything, they must survive constant barrages of enemies attempting to steal his gears.
+
+Gear is what gives every robot its unique 'form', or soul, making the gear you have valuable.
+The player wants to keep their gear, and the goal is to stop the robots from taking it.
+
+Every enemy defeated has a chance to drop some gear and with that gear the player would be able to change their abilities.
 
     ---
     layout: page
