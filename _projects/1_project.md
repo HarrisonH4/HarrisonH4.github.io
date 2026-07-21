@@ -18,13 +18,6 @@ The player wants to keep their gear, and the goal is to stop the robots from tak
 
 Every enemy defeated has a chance to drop some gear and with that gear the player would be able to change their abilities.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
