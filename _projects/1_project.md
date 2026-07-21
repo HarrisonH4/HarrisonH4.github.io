@@ -30,7 +30,7 @@ Every enemy defeated has a chance to drop some gear and with that gear the playe
     </div>
 </div>
 <div class="caption">
-    Above are some screenshots that show how the demo would go
+    Above are screenshots that show what features the demo has
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
