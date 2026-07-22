@@ -443,8 +443,8 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
             },},{id: "projects-project-test",
-          title: 'Project_test',
-          description: "",
+          title: 'project test',
+          description: "Testing the projects tab on the website by adding an md file straight to the folder",
           section: "Projects",handler: () => {
               window.location.href = "/projects/project_test/";
             },},{id: "teachings-data-science-fundamentals",
