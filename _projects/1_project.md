@@ -30,13 +30,19 @@ Every enemy defeated has a chance to drop some gear and with that gear the playe
     </div>
 </div>
 <div class="caption">
-    Above are screenshots that show what features the demo has
+    Some screenshots of what features the demo had to offer; boss fights, gear to equip, rounds of enemies.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+
+So what part did I have to play in the making of this game?
+
+To summarise:
+    1. Implemented recastnavigation for the AI pathfinding; 
+        - Set up as a Static Library.
+        - Created the Navigation Mesh on Level Start.
+        - Managed the Agents Creation, Pathing, and Destruction.
+    2. Added primitive behaviours to the Enemies, each stopping their pathfinding once in X distance of the player.
+    3. Added ImGui Debug UI for both of the above.
+    4. Implemented joltphysics for the Base Form's gravity and collision. (I did not implement the library, only using the library's functions)
+    5. And some more gameplay elements; wave list, enemy drops.
+
+
