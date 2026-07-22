@@ -41,9 +41,12 @@ To summarise:
     - Created the Navigation Mesh on Level Start.
     - Managed the Agents Creation, Pathing, and Destruction.
 
+
 2. Added primitive behaviours to the Enemies, each stopping their pathfinding once in X distance of the player.
 
 3. Added ImGui Debug UI for both of the above.
+
 4. Implemented joltphysics for the Base Form's gravity and collision. (I did not implement the library, only using the library's functions)
+   
 5. And some more gameplay elements; wave list, enemy drops.
 
