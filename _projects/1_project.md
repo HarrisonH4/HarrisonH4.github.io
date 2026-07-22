@@ -36,22 +36,14 @@ Every enemy defeated has a chance to drop some gear and with that gear the playe
 So what part did I have to play in the making of this game?
 
 To summarise:
-</div>
-    1. Implemented recastnavigation for the AI pathfinding; 
-    </div>
-        - Set up as a Static Library.
-        </div>
-        - Created the Navigation Mesh on Level Start.
-        </div>
-        - Managed the Agents Creation, Pathing, and Destruction.
-        </div>
-    2. Added primitive behaviours to the Enemies, each stopping their pathfinding once in X distance of the player.
-    </div>
-    3. Added ImGui Debug UI for both of the above.
-    </div>
-    4. Implemented joltphysics for the Base Form's gravity and collision. (I did not implement the library, only using the library's functions)
-    </div>
-    5. And some more gameplay elements; wave list, enemy drops.
-</div>
+1. Implemented recastnavigation for the AI pathfinding;
+    - Set up as a Static Library.
+    - Created the Navigation Mesh on Level Start.
+    - Managed the Agents Creation, Pathing, and Destruction.
 
+2. Added primitive behaviours to the Enemies, each stopping their pathfinding once in X distance of the player.
+
+3. Added ImGui Debug UI for both of the above.
+4. Implemented joltphysics for the Base Form's gravity and collision. (I did not implement the library, only using the library's functions)
+5. And some more gameplay elements; wave list, enemy drops.
 
