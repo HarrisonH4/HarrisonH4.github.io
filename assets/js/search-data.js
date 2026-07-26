@@ -407,11 +407,6 @@ ninja.data = [{
           description: "PlayStation 5 Game Attempt",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
@@ -442,6 +437,11 @@ ninja.data = [{
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
+            },},{id: "projects-master-39-s-dissertation",
+          title: 'Master&amp;#39;s Dissertation',
+          description: "Can a Compute Shader Octree Approach to Render Culling in Vulkan Increase Performance Compared to Traditional CPU-GPU Approach.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Dissertation/";
             },},{id: "projects-project-test",
           title: 'project test',
           description: "Testing the projects tab on the website by adding an md file straight to the folder",
