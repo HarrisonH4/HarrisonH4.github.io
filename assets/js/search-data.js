@@ -402,12 +402,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-base-form",
-          title: 'Base Form',
-          description: "PlayStation 5 Game Attempt",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-3-with-very-long-name",
+          section: "News",},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
@@ -437,6 +432,11 @@ ninja.data = [{
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
+            },},{id: "projects-base-form",
+          title: 'Base Form',
+          description: "PlayStation 5 Game Attempt",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/BaseForm/";
             },},{id: "projects-master-39-s-dissertation",
           title: 'Master&amp;#39;s Dissertation',
           description: "Can a Compute Shader Octree Approach to Render Culling in Vulkan Increase Performance Compared to Traditional CPU-GPU Approach.",
