@@ -12,6 +12,12 @@ pdf: assets/pdf/Dissertation.pdf
 <a href="{{ page.pdf | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">View Dissertation PDF</a>
 {% endif %}
 
+/\
+Above is the PDF of my dissertation, it didn't get the results I wanted but was informative anyways
+||
+Below is a brief of what I did for my dissertation, pros, cons, etc. 
+\/
+
 In a graphics pipeline, for every pixel on screen to be rendered, every vertice or triangle needs to be rendered so that the GPU knows which vertices are on screen and which aren't (This is called the Vertex Stage).
 This information is then passed into the pixel shader, which is responsible for colouring the vertices within screen space, or the camera's view.
 
