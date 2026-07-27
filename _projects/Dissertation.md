@@ -20,6 +20,10 @@ In a graphics pipeline, for every pixel on screen to be rendered, every vertice 
 This information is then passed into the pixel shader, which is responsible for colouring the vertices within screen space, or the camera's view.
 
 My dissertation stems from the vertex stage, where vertices are created and logged for later use.
-But also stems from the Bounding Volume Heirarchy method, in which objects are divided into simple shapes for comparisons.
+But also stems from the Bounding Volume Heirarchy method, in which objects are divided into simpler shapes for different comparisons.
 
+Take an irregular shape like in the image above and compare it to a small circle and a large rectangle.
+For an example of BVH, let's call this a collision test using this method.
+
+Both of these objects want to go past the irregular object.
 
