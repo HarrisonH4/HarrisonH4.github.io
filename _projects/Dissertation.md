@@ -6,7 +6,7 @@ img:
 importance: 2
 category: work
 giscus_comments: false
-pdf: assets/pdf/Dissertation.pdf
+pdf: assets/pdf/Dissertation
 ---
 
 In a graphics pipeline, for every pixel on screen to be rendered, every vertice or triangle needs to be rendered so that the GPU knows which vertices are on screen and which aren't (This is called the Vertex Stage).
