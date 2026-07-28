@@ -39,10 +39,10 @@ For an example of BVH, let's call this a collision test using this method.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IrregularShape.png" title="irregular shape image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CircleMovement.png" title="irregular shape image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IrregularShapeCircle.png" title="irregular circle image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/RectMovement.png" title="irregular circle image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -50,10 +50,10 @@ Both of these objects want to go past the irregular object.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IrregularShape.png" title="irregular shape image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/IrregularShapeVertices.png" title="irregular shape image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IrregularShapeCircle.png" title="irregular circle image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/IrregularShapeBVH.png" title="irregular circle image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
