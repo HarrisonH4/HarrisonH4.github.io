@@ -22,7 +22,19 @@ This information is then passed into the pixel shader, which is responsible for 
 My dissertation stems from the vertex stage, where vertices are created and logged for later use.
 But also stems from the Bounding Volume Heirarchy method, in which objects are divided into simpler shapes for different comparisons.
 
-Take an irregular shape like in the image above and compare it to a small circle and a large rectangle.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Take an irregular shape like in the first image above and compare it to a small circle and a large rectangle.
 For an example of BVH, let's call this a collision test using this method.
 
 Both of these objects want to go past the irregular object.
