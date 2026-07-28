@@ -47,6 +47,8 @@ For an example of BVH, let's call this a collision test using this method.
 </div>
 
 Both of these objects want to go past the irregular object.
+However they need to be checked for collisions, because the shape is an obstacle of some kind.
+There are two ways this can happen; either every vertex is checked against the object, or the shape is split up into easier shapes to compare.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -56,4 +58,5 @@ Both of these objects want to go past the irregular object.
         {% include figure.liquid loading="eager" path="assets/img/IrregularShapeBVH.png" title="irregular circle image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+The images above show this: with the first highlighting every vertex for comparison, and the second being split up into smaller and smaller squares.
 
