@@ -402,12 +402,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-base-form",
+          section: "News",},{id: "projects-base-form",
           title: 'Base Form',
           description: "PlayStation 5 Game Attempt",
           section: "Projects",handler: () => {
@@ -417,11 +412,6 @@ ninja.data = [{
           description: "Can a Compute Shader Octree Approach to Render Culling in Vulkan Increase Performance Compared to Traditional CPU-GPU Approach.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Dissertation/";
-            },},{id: "projects-project-test",
-          title: 'project test',
-          description: "Testing the projects tab on the website by adding an md file straight to the folder",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/project_test/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
