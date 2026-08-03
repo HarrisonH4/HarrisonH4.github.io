@@ -60,3 +60,6 @@ There are two ways this can happen; either every vertex is checked against the o
 </div>
 The images above show this: with the first highlighting every vertex for comparison, and the second being split up into smaller and smaller squares.
 
+So if this Bounding Volume Hierarchy was to be calculated pre-process for every object (i.e. Before the vertex shader does it's work).
+Those BVH shapes surrounding the objects were checked to see if they were in screen space.
+This method that I propose could remove whole objects from the scene without the need of checking every vertex that object has to see if it's in the scene before removing it.
